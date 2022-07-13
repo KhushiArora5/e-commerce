@@ -1,7 +1,11 @@
 import './Home.css';
+import Navbar from '../../components/Navbar/Navbar.js';
+import Footer from '../../components/Footer/Footer.js';
 
 function Home() {
   return (
+    <div>
+    <Navbar />
     <div className="bg">
         <div className="wel">
         <h1>WELCOME TO SWIFT</h1>
@@ -21,6 +25,8 @@ function Home() {
                 HAPPY TO BE AT YOUR SERVICE.
             </p>
         </div>
+    </div>
+    <Footer />
     </div>
   );
 }
