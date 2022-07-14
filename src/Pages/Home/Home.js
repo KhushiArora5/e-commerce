@@ -4,11 +4,11 @@ import Footer from '../../components/Footer/Footer.js';
 
 function Home() {
   return (
-    <div>
+    <>
     <Navbar />
     <div className="bg">
-        <div className="wel">
-        <h1>WELCOME TO SWIFT</h1>
+        <div>
+        <div className="wel">WELCOME TO SWIFT</div>
         </div>
         <div className="info">
             <p>
@@ -27,7 +27,7 @@ function Home() {
         </div>
     </div>
     <Footer />
-    </div>
+    </>
   );
 }
 

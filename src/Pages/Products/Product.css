@@ -1,0 +1,36 @@
+.pro
+{
+    background-color:  #fcfca2;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 10px;
+    padding-top: 10px;
+    
+}
+
+.box
+{
+    background-color: rgb(243, 186, 232);
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.image
+{
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.pinfo
+{
+    padding-top: 55px;
+}
+.btn
+{
+    border: 2px solid;
+}

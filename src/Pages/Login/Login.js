@@ -9,7 +9,7 @@ function Login(){
     const handleLogin = () => {
         if(email && pass)
         {
-            localStorage.setItem("email",email);
+            localStorage.setItem("email", email);
             window.location.href = "/products";
         }
         else
@@ -21,7 +21,7 @@ function Login(){
     return (
         <div>
         <Bar />
-        <div className="h-screen">
+        <div className="h-4/5">
         <div className="container px-6 py-12 h-full">
         <div className="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
             <div className="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
@@ -39,8 +39,7 @@ function Login(){
                     type="text"
                     className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                     placeholder="Email address" 
-                    onChange={(e) =>
-                        {
+                    onChange={(e) =>{
                             setEmail(e.target.value);
                         }} ></input>
                 </div>
@@ -51,8 +50,7 @@ function Login(){
                     type="password"
                     className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                     placeholder="Password" 
-                    onChange={(e) =>
-                        {
+                    onChange={(e) =>{
                             setPass(e.target.value);
                         }} ></input>
                 </div>
@@ -62,8 +60,7 @@ function Login(){
                     <input
                         type="checkbox"
                         className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                        id="exampleCheck3"
-                        checked />
+                        id="exampleCheck3" />
                     <label className="form-check-label inline-block text-gray-800" for="exampleCheck2"
                         >Remember me</label>
                     </div>
@@ -90,7 +87,7 @@ function Login(){
 
                 <a
                     className="px-7 py-3 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center mb-3"
-                    style="background-color: #3b5998"
+                    style={{backgroundColor: "#3b5998"}}
                     href="#!"
                     role="button"
                     data-mdb-ripple="true"
@@ -107,7 +104,7 @@ function Login(){
                 </a>
                 <a
                     className="px-7 py-3 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center"
-                    style="background-color: #55acee"
+                    style={{backgroundColor: "#55acee"}}
                     href="#!"
                     role="button"
                     data-mdb-ripple="true"
