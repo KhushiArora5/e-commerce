@@ -33,4 +33,6 @@
 .btn
 {
     border: 2px solid;
+    margin: 2px;
+    padding: 1px;
 }
