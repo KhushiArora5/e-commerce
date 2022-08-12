@@ -1,4 +1,4 @@
-import './Bar.css';
+import "./Bar.css";
 
 function Bar() {
   return (
